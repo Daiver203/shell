@@ -1,1 +1,1 @@
-# shell de todo un poco amigo.
+script - archivos sencillos ejecutables en shell

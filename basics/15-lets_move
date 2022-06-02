@@ -1,2 +1,2 @@
 #!/bin/bash
-mv -v M* /tmp/u
+mv -v i* /tmp/u

@@ -1,2 +1,2 @@
 #!/bin/bash
-mv -v Mayus* /tmp/u
+mv -v M* /tmp/u

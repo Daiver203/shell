@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod --reference=Rolleh hello
+chmod 354 --reference=Rolleh hello

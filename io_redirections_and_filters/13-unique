@@ -1,0 +1,2 @@
+#!/bin/bash
+uniq -c -f 1 uniq_0I.t | sort -u

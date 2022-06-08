@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./* -depth -type f -name -empty -printf "%f\n" | sort -n
+find . -empty -printf "%f\n"

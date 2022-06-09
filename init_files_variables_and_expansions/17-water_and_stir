@@ -1,2 +1,3 @@
 #!/bin/bash
-$WATER | tr water 01234 | echo "$((5#30012402303)) → 29419078" | tr stir. 01234 | echo $((5#12421231313)) → 15414583
+$WATER | tr water 01234 | echo "$((5#30012402303))" | tr stir. 01234 | echo "$((5#12421231313))" | printf “%o” | tr 01234567 belhnort
+

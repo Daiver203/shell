@@ -2,14 +2,16 @@
 #if - elif and more
 
 count=1
-
-while [ $count -le 8 ];
+while [ $count -le 5 ];
 do
     echo "Best School"
-    if [[ $count -eq 3 ]];then
-       echo "bad luck"
-       elif [[ $count -eq 6 ]]; then
-    	 echo "good luck"
-	 fi
+    if [ $count -eq 2 ];then
+	echo "bad luck"
+
+    elif [ $count -eq 4 ];then
+	echo "good luck"
+    else
+	echo "Best School"
+    fi
     (( count++ ))
 done

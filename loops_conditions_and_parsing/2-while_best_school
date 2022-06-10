@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#While loops among other things
+
+END=1
+while [$END -le 10]
+do
+    echo "Best School" $END
+    END='expr $END + 1' 
+done

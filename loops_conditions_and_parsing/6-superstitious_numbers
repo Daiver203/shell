@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#While--case
+
+count=1
+while [ "$count" -le "20" ];
+do
+	echo "$count"
+	(( count++ ))
+
+case $count in
+	"5") echo "bad luck from China";;
+	"10") echo "bad luck from Japan";;
+	"18") echo "bad luck from Italy";;
+esac
+done

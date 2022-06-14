@@ -6,7 +6,7 @@ number=0
 
 while [ "$number" -le "12" ];
 do
-    echo "Hour:$number"
+    echo "Hour: $number"
     (( number++ ))
     while [ "$count" -le "59" ];
     do 

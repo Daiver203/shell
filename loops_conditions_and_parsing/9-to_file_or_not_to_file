@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#for - if and else
+
+read "school" ./
+
+if [ school ]; then
+	echo "school file exists"
+else
+	echo "school file does not exist"
+fi
